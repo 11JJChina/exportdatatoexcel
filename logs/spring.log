@@ -450,3 +450,20 @@ Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The serv
 2019-07-02 18:57:37.452  INFO 18188 --- [http-nio-7088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
 2019-07-02 18:59:52.025  INFO 18188 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2019-07-02 18:59:52.048  INFO 18188 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-07-02 20:37:52.087  INFO 16444 --- [main] c.z.e.ExportDataToExcelApplication       : Starting ExportDataToExcelApplication on DESKTOP-TE41CBP with PID 16444 (D:\Projects\exportdatatoexcel\target\classes started by tallsafe in D:\Projects\exportdatatoexcel)
+2019-07-02 20:37:52.091  INFO 16444 --- [main] c.z.e.ExportDataToExcelApplication       : The following profiles are active: druid,mybatisplus,shiro,dev
+2019-07-02 20:37:53.588  INFO 16444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7088 (http)
+2019-07-02 20:37:53.615  INFO 16444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 20:37:53.615  INFO 16444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 20:37:53.795  INFO 16444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 20:37:53.796  INFO 16444 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1656 ms
+2019-07-02 20:37:54.074  INFO 16444 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-07-02 20:37:54.622  INFO 16444 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-07-02 20:37:55.022  INFO 16444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 20:37:55.318  INFO 16444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7088 (http) with context path ''
+2019-07-02 20:37:55.323  INFO 16444 --- [main] c.z.e.ExportDataToExcelApplication       : Started ExportDataToExcelApplication in 3.849 seconds (JVM running for 6.579)
+2019-07-02 20:42:48.420  INFO 16444 --- [http-nio-7088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-02 20:42:48.421  INFO 16444 --- [http-nio-7088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-02 20:42:48.436  INFO 16444 --- [http-nio-7088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-07-02 20:57:30.921  INFO 16444 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 20:57:30.933  INFO 16444 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
