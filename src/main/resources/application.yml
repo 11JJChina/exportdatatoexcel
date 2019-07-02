@@ -1,0 +1,16 @@
+db: test
+server:
+  port: 7088
+spring:
+  profiles:
+    active: dev
+    include: druid,mybatisplus,shiro
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/${db}?serverTimezone=GMT%2B8&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+logging:
+  path: ./logs
+  level:
+    com.abc.dao: debug
